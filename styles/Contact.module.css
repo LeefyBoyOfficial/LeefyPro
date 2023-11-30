@@ -1,0 +1,84 @@
+/* Contact.module.css */
+
+.fullContainer {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center; /* Center vertically */
+}
+
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: left;
+}
+
+.contact-form {
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.mb3 {
+    margin-bottom: 15px;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #333;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.textArea {
+    max-width: 100%; /* Make the textarea full width */
+    max-height: 400px;
+    min-height: 120px;
+}
+
+.form-text {
+    color: #666;
+}
+
+.btn-primary {
+    background-color: crimson;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: rgb(222, 52, 86);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+
+    .container {
+        max-width: 100%; /* Make the container full width */
+        margin: 20px; /* Adjust margin for smaller screens */
+        height: 80vh;
+        font-size: 25px;
+        margin-top: 200px;
+    }
+
+    .textArea {
+        max-width: 100%; /* Make the textarea full width on smaller screens */
+        min-width: unset; /* Remove the minimum width constraint */
+        font-size: 19px;
+    }
+  
+    .imageCont {
+        display: none;
+    }
+}

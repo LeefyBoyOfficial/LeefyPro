@@ -1,0 +1,107 @@
+/* styles/About.module.css */
+
+.container {
+    max-width: 100%;
+    /* Change max-width to 100% */
+    margin: 0 auto;
+    padding: 60px;
+    text-align: left;
+}
+
+.title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.description {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.link {
+    color: #e74c3c;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 20px;
+    display: inline-block;
+    background-color: white;
+    margin-top: 20px;
+    transition: color 0.3s ease;
+}
+
+.link:hover {
+    color: deeppink;
+}
+
+.highlights {
+    margin-top: 40px;
+}
+
+.highlights h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+.highlights ul {
+    list-style-type: none;
+    padding: 0;
+    line-height: 20px;
+}
+
+.highlights li {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.callToAction {
+    margin-top: 50px;
+}
+
+.callToAction p {
+    margin-bottom: 20px;
+}
+
+.ctaButton {
+    background-color: deeppink;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.ctaButton:hover {
+    background-color: palevioletred;
+}
+
+.whatYouGet {
+    margin-top: 40px;
+}
+
+.whatYouGet ul {
+    list-style: none;
+    line-height: 25px;
+}
+
+.whatYouGet h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+        margin-top: 80px;
+    }
+
+    .ctaButton {
+        padding: 14px 20px;
+    }
+}

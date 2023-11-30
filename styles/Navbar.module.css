@@ -1,0 +1,118 @@
+.navBar {
+    height: 10vh;
+    background-color: #dc143ce6;
+    justify-content: space-between;
+    max-width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+.navBar div {
+    width: 50%;
+}
+
+.leftNav {
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.navBar .leftNav ul {
+    display: flex;
+    gap: 40px;
+}
+
+.navBar .leftNav ul li {
+    padding: 10px;
+    font-size: 17px;
+    color: #fff;
+    list-style: none;
+}
+
+.navBar .leftNav ul li:hover {
+    font-size: 17.5px;
+    text-decoration: underline solid #fffaf0;
+}
+
+.rightNav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    padding-right: 20px;
+}
+
+.rightNav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+
+.rightNav a:hover {
+    color: #ddd;
+}
+
+.searchBarMobile {
+    display: none;
+}
+
+.searchBar {
+    width: 300px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0 2px 4px #0000001a;
+}
+
+.searchBar:focus {
+    outline: none;
+    border: 2px solid #dc143c;
+}
+
+/* Add this to your existing CSS */
+
+@media only screen and (max-width: 600px) {
+    .navBar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navBar div {
+        width: 100%;
+    }
+
+    .leftNav {
+        padding: 20px; /* Adjust padding for better spacing */
+    }
+
+    .navBar .leftNav ul {
+        flex-direction: column;
+        gap: 20px; /* Adjust gap for better spacing */
+    }
+
+    .navBar .leftNav ul li {
+        padding: 10px;
+        font-size: 17px;
+        color: #fff;
+        list-style: none;
+        text-align: center; /* Center-align text for better mobile display */
+    }
+
+    .navBar .leftNav ul li:hover {
+        font-size: 17.5px;
+        text-decoration: underline solid #fffaf0;
+    }
+
+    .rightNav {
+        padding: 20px; /* Adjust padding for better spacing */
+        justify-content: center; /* Center-align items for better mobile display */
+    }
+}

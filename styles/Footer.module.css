@@ -1,0 +1,90 @@
+/* Footer.module.css */
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    position: sticky;
+    bottom: 0;
+    
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto
+}
+
+.footerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.footerText {
+    font-size: 1rem;
+    margin: 0
+}
+
+.socialIcons {
+    display: flex
+}
+
+.icon {
+    margin-right: 10px;
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none
+}
+
+.icon:hover {
+    color: #ddd
+}
+
+@media only screen and (max-width: 600px) {
+
+    /* Footer.module.css */
+    .footer {
+        background-color: #333;
+        /* Set a background color for the footer */
+        padding: 20px;
+        /* Add some padding for better spacing */
+        color: #fff;
+        /* Set text color to white */
+        text-align: center
+            /* Center text in the footer */
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        /* Stack items vertically */
+        align-items: center
+            /* Center items horizontally */
+    }
+
+    .footerContent {
+        display: flex;
+        flex-direction: column;
+        gap: 10px
+            /* Add some spacing between items */
+    }
+
+    .footerText {
+        margin-bottom: 10px
+            /* Add space below the text */
+    }
+
+    .socialIcons {
+        display: flex;
+        gap: 10px;
+        /* Add spacing between social icons */
+        justify-content: center
+            /* Center social icons horizontally */
+    }
+
+    .icon {
+        color: #fff;
+        /* Set icon color to white */
+        font-size: 24px
+            /* Adjust the icon size */
+    }
+}

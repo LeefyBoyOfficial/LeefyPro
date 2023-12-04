@@ -68,10 +68,10 @@ const Home = () => {
                         <Link style={{ textDecoration: 'none' }} href='/auth/signup'><button id='signupBtn'>Sign Up</button></Link>
                     </div>
                 </div>
-                <div className={styles.imgDiv}>
+                <div className={styles.ImageDiv}>
                     <Image
                         src='/images/bgmain.png'
-                        alt='img'
+                        alt='Image'
                         priority={true}
                         width={500}
                         height={500}
@@ -84,7 +84,7 @@ const Home = () => {
             <section className={styles.coursesSection}>
 
                 <div className={styles.courseCard}>
-                    <img
+                    <Image
                         className={styles.courseThumbnail}
                         src='/images/css.jpg'
                         alt='CSS Course'
@@ -97,7 +97,7 @@ const Home = () => {
                 </div>
                 {/* Python Course Card */}
                 <div className={styles.courseCard}>
-                    <img
+                    <Image
                         className={styles.courseThumbnail}
                         src='/images/python.jpg'
                         alt='Python Course'
@@ -110,7 +110,7 @@ const Home = () => {
                 </div>
                 {/* HTML Course Card */}
                 <div className={styles.courseCard}>
-                    <img
+                    <Image
                         className={styles.courseThumbnail}
                         src='/images/html.jpg'
                         alt='HTML Course'

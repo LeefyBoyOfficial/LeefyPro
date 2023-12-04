@@ -92,7 +92,6 @@ const Home = () => {
                     <div className={styles.courseTitle}>CSS Course</div>
                     <div className={styles.courseDescription}>
                         Explore the fundamentals of CSS and learn how to style web pages.
-                        <a href='/courses/learn'>Learn more</a>
                     </div>
                 </div>
                 {/* Python Course Card */}
@@ -105,7 +104,6 @@ const Home = () => {
                     <div className={styles.courseTitle}>Python Course</div>
                     <div className={styles.courseDescription}>
                         Dive into the world of Python programming and build powerful applications.
-                        <a href='/courses/learn'>Learn more</a>
                     </div>
                 </div>
                 {/* HTML Course Card */}
@@ -118,7 +116,6 @@ const Home = () => {
                     <div className={styles.courseTitle}>HTML Course</div>
                     <div className={styles.courseDescription}>
                         Learn the foundations of HTML and create dynamic web content.
-                        <a href='/courses/learn'>Learn more</a>
                     </div>
                 </div>
             </section>
